@@ -1,0 +1,37 @@
+{
+    "name": "apanicker/omnipay-municipay",
+    "type": "library",
+    "description": "MuniciPAY 2.0 driver for the Omnipay payment processing library",
+    "keywords": [
+        "municipay",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/aravindpanicker/omnipay-municipay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aravind S",
+            "email": "aravindclpy@gmail.com"
+        },
+        {
+            "name": "Omnipay Contributors",
+            "homepage": "https://github.com/aravindpanicker/omnipay-municipay/graphs/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Municipay\\" : "src/" }
+    },
+    "require": {
+        "league/omnipay": "~3.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "prefer-stable": true
+}
